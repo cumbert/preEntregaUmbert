@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background_img {
+  position: relative;
+}
+
+.background_img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+.container .color_1 {
+  flex: 1;
+  background-color: #3b093b;
+}
+.container .color_2 {
+  flex: 1;
+  background-color: #692769;
+}/*# sourceMappingURL=styles.css.map */
