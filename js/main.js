@@ -98,7 +98,7 @@ if (opcion == "A") {
 
     do {
 
-        retiro = prompt("¿Cómo querés recibir compra?. \nA - Llega a tu domicilio por $" + TARIFA_A_DOMICILIO + ".\nB - Retiro en correo y otros puntos por $" + TARIFA_OTROS_PUNTOS);
+        retiro = prompt("¿Cómo quiere recibir compra?. \nA - Llega a tu domicilio por $" + TARIFA_A_DOMICILIO + ".\nB - Retiro en correo y otros puntos por $" + TARIFA_OTROS_PUNTOS);
         retiro = retiro.toUpperCase();
 
         total = opcionRecepcionProducto(opcion);
